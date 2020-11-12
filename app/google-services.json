@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "752431527974",
+    "firebase_url": "https://warewatch-1e022.firebaseio.com",
+    "project_id": "warewatch-1e022",
+    "storage_bucket": "warewatch-1e022.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752431527974:android:b90b9223bd2b5695594ee7",
+        "android_client_info": {
+          "package_name": "com.example.warewatch_70"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752431527974-01tvgmo3279de3nhe0etftuljh8nouta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMafrs1gmTaMIKxw2LOAifiPJvjeaH0UA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "752431527974-01tvgmo3279de3nhe0etftuljh8nouta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

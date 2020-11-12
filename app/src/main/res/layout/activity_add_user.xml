@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddUserActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/llAddUser"
+        android:src="@drawable/ic_person_add"/>
+
+    <LinearLayout
+        android:id="@+id/llAddUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="35dp"
+        android:layout_centerInParent="true">
+
+        <EditText
+            android:id="@+id/edAddFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter first name"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/edAddLasttName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter last name"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/edAddPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter phone number"
+            android:inputType="phone"/>
+
+        <Button
+            android:id="@+id/btnAddUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="submit"
+            android:background="@color/colorAppTheme"
+            android:textColor="@color/colorWhite"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

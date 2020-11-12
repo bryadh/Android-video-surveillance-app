@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstLogActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="35dp"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please set a new password"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/edFirstUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/edFirstPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter password"
+            android:inputType="textPassword"/>
+
+        <EditText
+            android:id="@+id/edFirstConfirmPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="confirm password"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/btnFirst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="submit"
+            android:background="@color/colorAppTheme"
+            android:textColor="@color/colorWhite"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

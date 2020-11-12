@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">warewatch</string>
+
+    <string name="nav_menu_home">home</string>
+    <string name="nav_menu_map">map</string>
+    <string name="nav_menu_alerts">alerts</string>
+
+    <string name="settings_item_addUser">Add user</string>
+    <string name="settings_item_updatePass">change password</string>
+    <string name="settings_item_history">view history</string>
+    <string name="settings_item_logout">logout</string>
+
+
+    <string name="login_incomplete_fields">please complete all fields</string>
+    <string name="login_incorrect">incorrect username or password</string>
+    <string name="database_error">unable to connect to database</string>
+    <string name="network_error">network error</string>
+    <string name="password_change_error">unable to change password</string>
+    <string name="title_activity_maps">Map</string>
+    
+    <string-array name="order_arrays">
+        <item>None</item>
+        <item>Type</item>
+    </string-array>
+
+</resources>

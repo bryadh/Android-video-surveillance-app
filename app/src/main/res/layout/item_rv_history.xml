@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/tvRvHistoryTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/tvRvHistoryWh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="warehouse"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/tvRvHistoryUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="user"/>
+
+</LinearLayout>
